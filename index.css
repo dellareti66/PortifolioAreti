@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+    background-color:#374258;
+    color: #f3f3f3;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cir{
+    position:fixed;
+    background-color: #f7446596;;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    clip-path: circle(70% at left 80%);
+    z-index: -1;}
+/* essa parte vai o cabecalho*/
+.cabecalho{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    height: 60px;
+    background-color: #6a7285;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+   
+}
+.logo{
+ 
+}
+.nav-bar a{
+ margin-right: 15px;
+}
+/*comeca a perte de editar texto :)*/
+ .conteneir{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#html{
+  padding-bottom:20px;
+}
+#css{
+  padding-bottom:20px;
+}
+#js{
+  padding-bottom:20px;
+}
+.html-,.css-,.js-{
+  background-color: rgba(106, 114, 133,35%);
+  text-align: center;
+  cursor: pointer;
+  padding: 30px;
+  font-size: 14px;
+  height: 450px;
+  width: 550px;
+  margin: 25px;
+  clip-path: polygon(1% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+.html-:hover{
+  background-color:#ff811ac9; 
+}
+.css-:hover{
+  background-color:#3867ffb7; 
+}
+.js-:hover{
+  background-color:#c9cc30bd; 
+}
+.texto-corpo{
+  display: flex;
+  margin-top: 200px;
+  margin-bottom: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+   
+   
+}
+.y{
+  margin-left: 15px;
+  color:#f74464;
+}
+.texto-corpo-palagrafo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 350px;
+  
+} 
+p,.titulo-front-end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  text-align: center;
+}
+p {
+  margin-bottom: 350px;
+}
+.conterner-dos-projetos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ .projetos{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 250px;
+  margin-top:250px
+}
+
+.titulo-back-end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 150px;
+}
+.Python-,.Php-{
+  background-color: rgba(106, 114, 133,35%);
+  text-align: center;
+  cursor: pointer;
+  padding: 30px;
+  font-size: 14px;
+  height: 450px;
+  width: 550px;
+  margin: 25px;
+  clip-path: polygon(1% 0%, 100% 0%, 100% 80%, 0% 100%);}
+  
+  #Python{
+    padding-bottom:20px;
+  }
+  #Php{
+    padding-bottom:20px;
+  }
+.Php-:hover{
+ background-color: #605386ad;
+}
+.Python-:hover{
+ background-color: #ffe873b6;
+}
+.loading-container {
+  background-color: rgba(106, 114, 133, 0.35);
+  text-align: center;
+  cursor: pointer;
+  padding: 30px;
+  font-size: 14px;
+  height: 450px;
+  width: 550px;
+  margin: 25px;
+  clip-path: polygon(1% 0%, 100% 0%, 100% 80%, 0% 100%);
+  position: relative;
+}
+
+.loading-animation {
+  height: 450px;
+  width: 550px;
+  margin: 0px;
+  padding: 0px;
+  background-color:rgba(106, 115, 134, 0.233);
+  position:relative;
+  bottom: 0;
+  animation: moveUp 3s infinite ease-in-out;
+}
+
+@keyframes moveUp {
+  0%, 100% {
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
