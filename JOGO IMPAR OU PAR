@@ -1,0 +1,46 @@
+ var EscolhaNumero;
+    ImparOuPar();
+
+    
+    function ImparOuPar() {
+        while (true) {
+            EscolhaNumero = prompt("Escolha 'par' ou 'ímpar'");
+
+                if(EscolhaNumero === "impar") {
+                    alert("vc esoclheu impar")
+                break;
+    }
+     
+            if(EscolhaNumero === "par"){
+                alert("voce esolheu par")
+            break;    
+         }
+            else{
+        alert("numero invalido escolha um numero")
+        }
+            }
+                }
+        
+        
+
+        var arrendondar =  Math.random(10)*10
+        var numeroPsensado = Math.round(arrendondar)
+       
+
+        if (numeroPsensado % 2 === 0){
+                if(EscolhaNumero === "par"){
+                    alert("vc ganhou")
+                }
+                else{
+                     alert("vc perdeu")}
+                 
+            }
+        else{
+        
+                if(EscolhaNumero === "impar"){
+                    alert("vc ganhou")
+                }else{
+                    alert("vc perdeu")}
+                
+
+        }
